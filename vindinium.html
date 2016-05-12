@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+       <head>
+           <title>My Web Page!</title>
+           <link rel="stylesheet" type="text/css" href="indexstyle.css">
+ 
+
+       </head>
+       <body>
+           <h1 id="my-website"> My Website</h1>
+           <link rel="stylesheet" type="text/css" href="navbar.css">
+
+	<!-- Put Main Body in this DIV -->
+     <ul id="navbar">
+	    <li><a href="index.html"> Welcome! </a></li>
+	    <li><a href="aboutme.html"> About Me </a></li>
+	    <li><a href="html.html"> HTML </a></li>
+	    <li><a href="hardware.html"> Hardware </a></li>
+	    <li><a href="calc.html"> Calculator </a></li>
+	    <li><a href="vindinium.html"> Vindinium </a></li>
+	    <li><a href="todolist.html"> To Do List </a></li>
+	    <li><a href="crossword.html"> Crossword </a></li>
+	    <li><a href="info.html"> Info </a></li>
+	</ul>
+	<ul id="navbar">
+	    <img src ="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/a0/120663/73d89cbf74dde0cacf22233ec6dc6a79-original.png">
+        <h2>The project that we did in this for this interval was the <br> Vindinium game, which consisted us making bots and making a <br>code for them to attack. One thing that the bots can attack are<br> mines and when the bots do so, they earn gold from them. There<br> are four bots that are going to compete against each other.<br> You can create multiple codes for the bots to do things such as attack<br> other bots that are closest to your bot, bots with the lowest health,<br> bots with most gold,and bots with most mines. The bot that has the<br>most gold is crowned the winner.</h2>
+        
+        <h2> A code that I used for my bot was this:<br></h2> 
+       <p> if (task === "freemines") {<br>
+            var closestMine = bot.freeMines[0];<br>
+            for (var i = 0; i < bot.freeMines.length; i++) {<br>
+                if (bot.findDistance(myPos, closestMine) > bot.findDistance(myPos, bot.freeMines[i])) {<br>
+                    closestMine = bot.freeMines[i];<br>
+                }<br>
+            }<br>
+            console.log("Claiming a Free Mine!");<br>
+            myDir = bot.findPath(myPos, closestMine);
+        }</p>
+        <h2>I used this code so that my bot would attack other bots with the least health.</h2>
+        <p>The if and else statement that I used determines whether the closet mine is the closets mine. My<br> bot tries to find the difference between itself and what it thinks is the closest mine and<br> is greater than the next free mine and if that is true then the cloosest mine goes to a freemine.</p>
+        <p>The full program can be seen here:</p>
+        <script src="https://gist.github.com/anajteresa/be86122202f887a80cd6441294c32bd7.js"></script>
+       </body>
+</html> 

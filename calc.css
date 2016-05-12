@@ -1,0 +1,10 @@
+body {
+    background-color: teal;
+}
+
+#navbar li {
+    display: inline-block;
+}
+h1 {
+    color: white
+}

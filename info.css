@@ -1,0 +1,9 @@
+body {
+    color: black;
+    background-color: teal;
+}
+
+#navbar li {
+    display: inline-block;
+}
+

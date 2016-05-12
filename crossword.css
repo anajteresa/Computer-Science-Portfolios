@@ -1,0 +1,46 @@
+#box {
+    border-style: solid;
+    border-color: maroon;
+    height: 570px;
+    width: 508px;
+}
+
+.names {
+    display:inline-block;
+}
+
+.names2 {
+    display:inline-block;
+}
+
+.names3 {
+    display:inline-block;
+}
+
+span {
+    border: 3px solid thistle;
+    float:left;
+    width: 20px;
+    height:20px;
+    text-align: center;
+}
+
+h1 {
+    color: maroon;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: maroon;
+}
+
+body {
+    background-color: teal;
+}
+
+#navbar li {
+    display: inline-block;
+}

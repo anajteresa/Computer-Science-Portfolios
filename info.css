@@ -1,9 +1,12 @@
 body {
-    color: black;
+    color: white;
     background-color: teal;
+    text-align: center 
 }
 
 #navbar li {
     display: inline-block;
 }
 
+#my-website{transition:2s all linear;}
+#my-website:hover{font-size:50px}

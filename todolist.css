@@ -5,3 +5,18 @@ body {
 div {
     color: white;
 }
+
+h2 {
+    color: white;
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+h1 {
+    color: white;
+}
+
+#my-website{transition:2s all linear;}
+#my-website:hover{font-size:50px}

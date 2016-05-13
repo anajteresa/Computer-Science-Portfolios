@@ -1,6 +1,6 @@
 #box {
     border-style: solid;
-    border-color: maroon;
+    border-color: purple;
     height: 570px;
     width: 508px;
 }
@@ -22,11 +22,10 @@ span {
     float:left;
     width: 20px;
     height:20px;
-    text-align: center;
 }
 
 h1 {
-    color: maroon;
+    color: White;
 }
 
 h2 {
@@ -34,7 +33,7 @@ h2 {
 }
 
 h3 {
-    color: maroon;
+    color: white;
 }
 
 body {
@@ -44,3 +43,6 @@ body {
 #navbar li {
     display: inline-block;
 }
+
+#my-website{transition:2s all linear;}
+#my-website:hover{font-size:50px}
